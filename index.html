@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mister Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="onHandleKey(event)" onload="onInitGame()">
+  <h1>Collected Balls: <span></span></h1>
+  <h3>Balls Around Player: <span></span></h3>
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+
+  <div class="winning-message"> You are the winner!
+    <button class="button" onclick="restartButton()">Restart</button>
+  </div>
+
+  <script src="js/util.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
